@@ -12,7 +12,7 @@ clear ; neofetch --color_blocks off
 alias findex="explorer.exe ." # Find Current Dir with Windows Explorer
 
 ## Quality Of Life
-alias n="source ~/.bashrc" # Renew the window thanks by running 'At Launch' section
+alias n="source ~/.bashrc" # Renew the window by running 'At Launch' section
 
 ## Config - Configure files and source them
 alias cb="vi ~/.bashrc && source ~/.bashrc"
