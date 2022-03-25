@@ -2,7 +2,7 @@
 syntax on
 
 " Colors - Just uncomment the scheme that you want
-"colorscheme desert
+colorscheme desert
 " ↪ Classic Colors with clear separations for syntax
 "colorscheme torte
 " ↪ Flat Color + Background Change
