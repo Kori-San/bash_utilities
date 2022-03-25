@@ -61,5 +61,5 @@ battery(){
 
     # echo Battery % with colour set above
     # Remove ${colour} if you dont want them
-    echo -e "${colour}${battery_charge}%"
+    echo -e "${battery_charge}%"
 }
