@@ -5,7 +5,7 @@
 #################################################################################################
 
 # At Launch
-clear ; neofetch --ascii_distro Trisquel --ascii_colors 31 31 --color_blocks off --colors 4 31 7 4 7 6
+clear ; neofetch --ascii_distro Trisquel --ascii_colors 25 25 --color_blocks off --colors 4 31 7 4 7 6
 
 # Aliases
 ## Aliases for Windows WSL
