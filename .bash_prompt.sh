@@ -1,13 +1,10 @@
 #!/bin/bash
 
-#   You can use 'https://scriptim.github.io/bash-prompt-generator/' to customize :
-#             Colors / Informations / Order / Line / Add Emojis / Ect... 
+# You can use 'https://scriptim.github.io/bash-prompt-generator/' to customize : colors, informations, order, line, emojis, etc.. 
 # ───────────────────────────────────────────────────────────────────────────────────
-# For bash prompts that display battery % you either want to take the battery() func 
-#            at the end or replace the func inside the prompt by your own           
+# For bash prompts that display battery % you either want to take the battery() func at the end or replace the func inside the prompt by your own
 # ───────────────────────────────────────────────────────────────────────────────────
-#     To install a prompt you'll need to change the PS1 value in your ~/.bashrc
-# or you can just copy '$ PS1=...' in your term, but the change will not be permanent
+# To install a prompt you'll need to change PS1's value in your .bashrc, you can also copy PS1's value in your term, but the change will not be permanent
 
 # ⚠️ You should comment your PS1 vars instead of deleting them just in case
 # ⚠️ Preview are colorless, you should either use paste PS1's value in you terminal or use 'https://scriptim.github.io/bash-prompt-generator/'
