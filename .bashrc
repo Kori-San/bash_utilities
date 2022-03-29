@@ -13,7 +13,7 @@ alias findex="explorer.exe ." # Find Current Dir with Windows Explorer
 
 ## Quality Of Life
 alias n="source ~/.bashrc" # Renew the window by running 'At Launch' section
-alias lt="echo -e 'Size    Filename\n-----------------'; du -sh */* | sort -hr" # Show Size of Files in Dir and Subdirs
+alias lt="echo -e 'Size    Filename\n-----------------'; du -sh ./* | sort -hr" # Show Size of Files and Folders in Dir
  
 ## Config - Configure files and source them
 alias cb="vi ~/.bashrc && source ~/.bashrc"
