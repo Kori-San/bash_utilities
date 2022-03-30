@@ -11,23 +11,27 @@
 
 ### Bash Prompts ###
 # Color : blue / purple
-## Preview : kori@san - [📂 ~/bin]
-##           └─[📅 Fri Mar 25 | 12:24:48] {🔋 96%} > $ 
+## Preview : username@hostname.com - [📂 ~/bin]
+##           └─[📅 Fri Feb 31 | 12:24:48] {🔋 96%} > $ 
 PS1='\[\e[0;1;38;5;68m\]\u\[\e[0;38;5;62m\]@\[\e[0;3;38;5;68m\]\H \[\e[0;38;5;62m\]- \[\e[0;38;5;62m\][\[\e[0m\]📂 \[\e[0;38;5;68m\]\w\[\e[0;38;5;62m\]]\n\[\e[0;38;5;62m\]└─\[\e[0;38;5;62m\][\[\e[0m\]📅 \[\e[0;38;5;68m\]\d \[\e[0;38;5;62m\]| \[\e[0;5;38;5;68m\]\t\[\e[0;38;5;62m\]] \[\e[0;38;5;62m\]{\[\e[0m\]🔋 $(battery)\[\e[0;38;5;62m\]} \[\e[0;38;5;62m\]> \[\e[0;38;5;62m\]$ \[\e[0m\]\[\e[0m\]'
 
 # Color : blue / white
-## Preview : [🙋🏾96%] username@hostname.com: 📂 ~/bin  $
+## Preview : [🙋🏾96%] username@hostname.com: 📂 ~/bin  $ 
 PS1='\[\e[0;38;5;33m\][\[\e[0m\]🙋🏾\[\e[0m\]$(battery) \[\e[0;38;5;33m\]] \[\e[0;3m\]\u\[\e[0;38;5;33m\]@\[\e[0;1m\]\H\[\e[0;38;5;33m\]: \[\e[0m\]📂 \[\e[0m\]\w  \[\e[0;38;5;33m\]$ \[\e[0m\]'
 
 # Color : blue / purple
-## Preview : kori@san - [~/bin]
-##           └─[Fri Mar 25 | 12:24:48] {96%} > $ 
+## Preview : username@hostname.com - [~/bin]
+##           └─[Fri Feb 31 | 12:24:48] {96%} > $ 
 PS1='\[\e[0;1;38;5;68m\]\u\[\e[0;38;5;62m\]@\[\e[0;3;38;5;68m\]\H \[\e[0;38;5;62m\]- \[\e[0;38;5;62m\][\[\e[0;38;5;68m\]\w\[\e[0;38;5;62m\]]\n\[\e[0;38;5;62m\]└─\[\e[0;38;5;62m\][\[\e[0;38;5;68m\]\d \[\e[0;38;5;62m\]| \[\e[0;5;38;5;68m\]\t\[\e[0;38;5;62m\]] \[\e[0;38;5;62m\]{\[\e[0m\]$(battery)\[\e[0;38;5;62m\]} \[\e[0;38;5;62m\]> \[\e[0;38;5;62m\]$ \[\e[0m\]'
 
 # Color : white
-## Preview : kori@san - [~/bin]
-##           └─[Fri Mar 25 | 12:24:48] {96%} > $
+## Preview : username@hostname.com - [~/bin]
+##           └─[Fri Feb 31 | 12:24:48] {96%} > $ 
 PS1='\[\e[0;1m\]\u\[\e[0m\]@\[\e[0;3m\]\H \[\e[0m\]- \[\e[0m\][\[\e[0m\]\w\[\e[0m\]]\n\[\e[0m\]└─\[\e[0m\][\[\e[0m\]\d \[\e[0m\]| \[\e[0;5m\]\t\[\e[0m\]] \[\e[0m\]{\[\e[0m\]$(battery)\[\e[0m\]} \[\e[0m\]> \[\e[0m\]$ \[\e[0m\]'
+
+# Color : white
+## Preview : [96%] username@hostname.com: ~/bin $
+PS1='\[\e[0m\][ \[\e[0m\]$(battery) \[\e[0m\]] \[\e[0m\]\u\[\e[0m\]@\[\e[0m\]\H\[\e[0m\]: \[\e[0m\]\w  \[\e[0m\]$ \[\e[0m\]'
 
 # Battery Function I use, you might want to add it to your ~/.bashrc
 battery(){
