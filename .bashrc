@@ -21,6 +21,20 @@ alias cv="vi ~/.vimrc && source ~/.vimrc"
 alias cpr="vi ~/.profile && source ~/.profile"
 
 # Funcs
+## A simple Battery function
+battery(){
+    ## Battery Vars
+    battery="/sys/class/power_supply/*" 
+    # You might wanna add the real folder instead of '*'
+
+    battery_charge=$(cat ${battery}/capacity)
+
+    # Prevent a charge of more than 100% displaying
+    if [ "${battery_charge}" -gt "99" ]; then battery_charge="100"; fi
+
+    # echo Battery %
+    echo -e "${battery_charge}%"
+}
 
 #################################################################################################
 # / / / /                                 /!\ WARNING /!\                               \ \ \ \ #
