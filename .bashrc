@@ -40,40 +40,40 @@ battery(){
 ## Colors
 
 ## - Normal Colors
-Black='\e[0;30m'
-Red='\e[0;31m'
-Green='\e[0;32m'
-Yellow='\e[0;33m'
-Blue='\e[0;34m'
-Purple='\e[0;35m'
-Cyan='\e[0;36m'
-White='\e[0;37m'
+black="\e[0;30m"
+red="\e[0;31m"
+green="\e[0;32m"
+yellow="\e[0;33m"
+blue="\e[0;34m"
+purple="\e[0;35m"
+cyan="\e[0;36m"
+white="\e[0;37m"
 
 ## - Bold
-BBlack='\e[1;30m'
-BRed='\e[1;31m'
-BGreen='\e[1;32m'
-BYellow='\e[1;33m'
-BBlue='\e[1;34m'
-BPurple='\e[1;35m'
-BCyan='\e[1;36m'
-BWhite='\e[1;37m'
+bblack="\e[1;30m"
+bred="\e[1;31m"
+bgreen="\e[1;32m"
+byellow="\e[1;33m"
+bblue="\e[1;34m"
+bpurple="\e[1;35m"
+bcyan="\e[1;36m"
+bwhite="\e[1;37m"
 
-## - Background
-On_Black='\e[40m'
-On_Red='\e[41m'
-On_Green='\e[42m'
-On_Yellow='\e[43m'
-On_Blue='\e[44m'
-On_Purple='\e[45m'
-On_Cyan='\e[46m'
-On_White='\e[47m'
+## - On Background
+oblack="\e[40m"
+ored="\e[41m"
+ogreen="\e[42m"
+oyellow="\e[43m"
+oblue="\e[44m"
+opurple="\e[45m"
+ocyan="\e[46m"
+owhite="\e[47m"
 
 ## - Color Reset
-NC="\e[m"
+creset="\e[m"
 
 ## - Presets
-ALERT=${BWhite}${On_Red} # Bold White on red background
+alert="${bwhite}${ored}" # Bold White on red background
 
 #################################################################################################
 # / / / /                                 /!\ WARNING /!\                               \ \ \ \ #
